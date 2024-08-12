@@ -2,12 +2,12 @@
 This Flutter application is designed to help users identify and manage plant diseases. With an intuitive interface, it allows users to search for plants, browse by categories, and view detailed information about each plant. The app is multilingual, responsive, and built for scalability.
 
 # Features
-## Plant Search: Quickly find specific plants in the app’s database.
-## Category Browsing: Explore plants by categories such as Recommended, Indoor, Outdoor, Garden, and Supplement.
-## Detailed Plant Information: View comprehensive details including the plant’s name, image, and description.
-## Language Support: Toggle between multiple languages like English and Urdu.
-## Responsive UI: Ensures a seamless experience across different devices, utilizing flutter_screenutil for adaptive layouts.
-## State Management: Efficient state management using the Provider package.
+Plant Search: Quickly find specific plants in the app’s database.
+Category Browsing: Explore plants by categories such as Recommended, Indoor, Outdoor, Garden, and Supplement.
+Detailed Plant Information: View comprehensive details including the plant’s name, image, and description.
+Language Support: Toggle between multiple languages like English and Urdu.
+Responsive UI: Ensures a seamless experience across different devices, utilizing flutter_screenutil for adaptive layouts.
+State Management: Efficient state management using the Provider package.
 Screenshots
 Add screenshots of your app here if available.
 

@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:plant_disease_detection/constants.dart';
+import 'package:plant_disease_detection/constants.dart'; 
 
 class ProfileWidget extends StatelessWidget {
   final IconData icon;
@@ -13,7 +13,7 @@ class ProfileWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return Container( 
       padding: const EdgeInsets.symmetric(vertical: 18),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

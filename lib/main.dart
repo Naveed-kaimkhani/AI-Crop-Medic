@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:plant_disease_detection/provider/language_provider.dart';
+import 'package:plant_disease_detection/ui/onboarding_screen.dart';
+import 'package:plant_disease_detection/ui/scan_page.dart';
 import 'package:plant_disease_detection/ui/screens/detail_page.dart';
 import 'package:plant_disease_detection/ui/screens/disease_list_screen.dart';
+import 'package:plant_disease_detection/ui/screens/home_page.dart';
 import 'package:provider/provider.dart';
 import 'package:plant_disease_detection/ui/root_page.dart';
 
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.green,
           ),
-          home: DetailPage(plantId: 1),
+          home:RootPage(),
         );
       },
     );

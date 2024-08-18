@@ -8,10 +8,19 @@ class Plant {
   final String description;
 
 
+  final String disease;
+  final String cure;
+  final String Pesticides ;
+
+  
+
+
   Plant( {
       required this.plantName,
       required this.imageURL,
      required this.description, 
+     // ignore: non_constant_identifier_names
+     required this.disease, required this.cure, required this.Pesticides, 
      
       });
 

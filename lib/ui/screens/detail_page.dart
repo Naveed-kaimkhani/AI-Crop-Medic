@@ -6,8 +6,8 @@ import 'package:plant_disease_detection/provider/language_provider.dart';
 import 'package:provider/provider.dart';
 
 class DetailPage extends StatefulWidget {
-  final int plantId;
-  const DetailPage({Key? key, required this.plantId}) : super(key: key);
+  final Plant plant;
+  const DetailPage({Key? key, required this.plant}) : super(key: key);
 
   @override
   State<DetailPage> createState() => _DetailPageState();
@@ -77,7 +77,7 @@ class _DetailPageState extends State<DetailPage> {
                       child: Image.asset(Images.cotton),
                     ),
                   ),
-                  Positioned(
+                  const Positioned(
                     top: 10,
                     right: 0,
                     child: SizedBox(
